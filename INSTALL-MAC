@@ -166,11 +166,9 @@ First thing we need to do is set the build configuration, this means editing the
 private build profile settings. There is one for qwt (a charting library) and
 there is another for GoldenCheetah itself.
 
-$ cd ~/Projects/GoldenCheetah/qwt
-$ cp qwtconfig.pri.in qwtconfig.pri
-$ cd ../src
-$ cp gcconfig.pri.in gcconfig.pri
-$ vi gcconfig.pri 
+$ cp qwt/qwtconfig.pri.in qwt/qwtconfig.pri
+$ cp src/gcconfig.pri.in src/gcconfig.pri
+$ vi src/gcconfig.pri
 
 In that last step you can use whatever editor you feel most comfortable with.
 
